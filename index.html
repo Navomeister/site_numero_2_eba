@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="container">
+        <canvas id="linha_cima"></canvas>
+        <p id="conta_cor">Conta Corrente</p>
+        <!-- ????? -->
+        <svg id="menu" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="20" height="2" rx="1" fill="#292E33"/>
+            <rect x="4" y="7" width="16" height="2" rx="1" fill="#292E33"/>
+            <rect y="14" width="20" height="2" rx="1" fill="#292E33"/>
+            </svg>
+        <!-- taí, svg pego do figma -->            
+        <p id="dindin">R$ 12.345,00</p>
+
+        <!-- ícones -->
+        <canvas id="fundo_icones"></canvas>
+        <canvas id="cartao"></canvas>
+        <img id="img_cartao" src="./img/cartao.svg" alt="cartão">
+        <p id="txt_cartao">Cartão</p>
+
+        <canvas id="boleto"></canvas>
+        <img id="img_boleto" src="./img/boleto.svg" alt="boleto">
+        <p id="txt_boleto">Boleto</p>
+
+        <canvas id="transferir"></canvas>
+        <img id="img_transferir" src="./img/transferir.svg" alt="transferir">
+        <p id="txt_transferir">Transferir</p>
+
+        <canvas id="gastos"></canvas>
+        <img id="img_gastos" src="./img/gastos.svg" alt="gastos">
+        <p id="txt_gastos">Gastos</p>
+        <!-- fim ícones -->
+
+        <!-- parte de baixo -->
+        <p id="transacoes">TRANSAÇÕES RECENTES</p>
+        <canvas id="fundo_baixo"></canvas>
+        <svg id="img_super" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="9" height="9" rx="2" fill="#E1E5E7"/>
+            <rect x="2" y="4" width="5" height="1" fill="#67737E"/>
+        </svg>            
+        <p id="gasto_super">R$ 25,50</p>
+        <p id="data_super">11/12</p>
+        <p id="txt_super">Supermercado</p>
+        <p id="hora_super">13:32</p>
+        <canvas id="linha_1"></canvas>
+        
+        <svg id="img_shopping" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="9" height="9" rx="2" fill="#E1E5E7"/>
+            <rect x="2" y="4" width="5" height="1" fill="#67737E"/>
+        </svg>
+        <p id="gasto_shopping">R$ 344,00</p>
+        <p id="data_shopping">09/12</p>
+        <p id="txt_shopping">Shopping</p>
+        <p id="hora_shopping">13:32</p>
+        <canvas id="linha_2"></canvas>
+
+        <svg id="img_pix" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="9" height="9" rx="2" fill="#C3FF63"/>
+            <rect x="2" y="4" width="5" height="1" fill="#67737E"/>
+            <rect x="4" y="2" width="1" height="5" fill="#67737E"/>
+        </svg>            
+        <p id="ganho_pix">R$ 149,00</p>
+        <p id="data_pix">09/12</p>
+        <p id="txt_pix">Pix *4442 Ana</p>
+        <p id="hora_pix">13:32</p>
+        <canvas id="linha_3"></canvas>
+
+        <svg id="img_farmacia" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="9" height="9" rx="2" fill="#E1E5E7"/>
+            <rect x="2" y="4" width="5" height="1" fill="#67737E"/>
+        </svg>
+        <p id="gasto_farmacia">R$ 149,00</p>
+        <p id="data_farmacia">09/12</p>
+        <p id="txt_farmacia">Farmácia</p>
+        <p id="hora_farmacia">13:32</p>
+        <canvas id="linha_4"></canvas>
+
+        <svg id="img_super2" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="9" height="9" rx="2" fill="#E1E5E7"/>
+            <rect x="2" y="4" width="5" height="1" fill="#67737E"/>
+        </svg>
+        <p id="gasto_super2">R$ 23,43</p>
+        <p id="data_super2">08/12</p>
+        <p id="txt_super2">Supermercado</p>
+        <p id="hora_super2">13:32</p>
+        <canvas id="linha_5"></canvas>
+
+        <svg id="img_transf" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="9" height="9" rx="2" fill="#C3FF63"/>
+            <rect x="2" y="4" width="5" height="1" fill="#67737E"/>
+            <rect x="4" y="2" width="1" height="5" fill="#67737E"/>
+        </svg>
+        <p id="ganho_transf">R$ 2999,00</p>
+        <p id="data_transf">05/12</p>
+        <p id="txt_transf">Transferência *0223</p>
+        <p id="hora_transf">13:32</p>
+        <canvas id="linha_6"></canvas>
+
+        <svg id="img_super3" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="9" height="9" rx="2" fill="#E1E5E7"/>
+            <rect x="2" y="4" width="5" height="1" fill="#67737E"/>
+        </svg>
+        <p id="gasto_super3">R$ 23,43</p>
+        <p id="data_super3">02/12</p>
+        <p id="txt_super3">Supermercado</p>
+        <p id="hora_super3">13:32</p>
+    </div>
+</body>
+</html>

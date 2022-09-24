@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#container{
+    height: 800px;
+    width: 400px;
+    background-color: #F6F7F9;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: 'roboto', 'sans-serif';
+}
+
+#linha_cima{
+    height: 4px;
+    width: 400px;
+    background-color: #2393F7;
+    margin-bottom: 11px;
+}
+
+#conta_cor{
+    font-size: 24px;
+    font-weight: 700;
+    color: #2b3134;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+#menu{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -40px;
+}
+
+#dindin{
+    color: #384046;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: white;
+    width: 345px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#fundo_icones{
+    width: 360px;
+    height: 120px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+/* parte dos ícones */
+/* cartão */
+#cartao{
+    height: 60px;
+    width: 60px;
+    background-color: #2393F7;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+#img_cartao{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 57px;
+    opacity: 0.4;
+}
+
+#txt_cartao{
+    font-size: 14px;
+    color: #67737D;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 83px;
+    margin-left: 49px;
+}
+
+/* boleto */
+#boleto{
+    height: 60px;
+    width: 60px;
+    background-color: #2393F7;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 128px;
+    position: absolute;
+}
+
+#img_boleto{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 145px;
+    opacity: 0.4;
+}
+
+#txt_boleto{
+    font-size: 14px;
+    color: #67737D;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 83px;
+    margin-left: 139px;
+}
+
+/* transferir */
+#transferir{
+    height: 60px;
+    width: 60px;
+    background-color: #2393F7;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 216px;
+    position: absolute;
+}
+
+#img_transferir{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 233px;
+    opacity: 0.4;
+}
+
+#txt_transferir{
+    font-size: 14px;
+    color: #67737D;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 83px;
+    margin-left: 217px;
+}
+
+/* Gastos */
+#gastos{
+    height: 60px;
+    width: 60px;
+    background-color: #2393F7;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+#img_gastos{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 317px;
+    opacity: 0.4;
+}
+
+#txt_gastos{
+    font-size: 14px;
+    color: #67737D;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 83px;
+    margin-left: 308px;
+}
+/* fim ícones */
+
+/* parte baixo */
+#transacoes{
+    color: #8F99A3;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 165px
+}
+
+#fundo_baixo{
+    position: absolute;
+    width: 360px;
+    height: 405px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#img_super{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#gasto_super{
+    position: absolute;
+    color: #374047;
+    font-size: 16px;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+#data_super{
+    position: absolute;
+    color: #6A7680;
+    font-size: 16px;
+    margin-left: 315px;
+}
+
+#txt_super{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+#hora_super{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 330px;
+}
+
+#linha_1{
+    width: 320px;
+    height: 2px;
+    background-color: #F6F7F9;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+#img_shopping{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 75px;
+}
+
+#gasto_shopping{
+    position: absolute;
+    color: #374047;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+#data_shopping{
+    position: absolute;
+    color: #6A7680;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-left: 315px;
+}
+
+#txt_shopping{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 95px;
+    margin-left: 55px;
+}
+
+#hora_shopping{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 95px;
+    margin-left: 330px;
+}
+
+#linha_2{
+    width: 320px;
+    height: 2px;
+    background-color: #F6F7F9;
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 40px;
+}
+
+#img_pix{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 130px;
+}
+
+#ganho_pix{
+    position: absolute;
+    color: #374047;
+    font-size: 16px;
+    margin-top: 125px;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+#data_pix{
+    position: absolute;
+    color: #6A7680;
+    font-size: 16px;
+    margin-top: 125px;
+    margin-left: 315px;
+}
+
+#txt_pix{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 150px;
+    margin-left: 55px;
+}
+
+#hora_pix{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 150px;
+    margin-left: 330px;
+}
+
+#linha_3{
+    width: 320px;
+    height: 2px;
+    background-color: #F6F7F9;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 40px;
+}
+
+#img_farmacia{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 185px;
+}
+
+#gasto_farmacia{
+    position: absolute;
+    color: #374047;
+    font-size: 16px;
+    margin-top: 180px;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+#data_farmacia{
+    position: absolute;
+    color: #6A7680;
+    font-size: 16px;
+    margin-top: 180px;
+    margin-left: 315px;
+}
+
+#txt_farmacia{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 205px;
+    margin-left: 55px;
+}
+
+#hora_farmacia{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 205px;
+    margin-left: 330px;
+}
+
+#linha_4{
+    width: 320px;
+    height: 2px;
+    background-color: #F6F7F9;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 40px;
+}
+
+#img_super2{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 240px;
+}
+
+#gasto_super2{
+    position: absolute;
+    color: #374047;
+    font-size: 16px;
+    margin-top: 235px;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+#data_super2{
+    position: absolute;
+    color: #6A7680;
+    font-size: 16px;
+    margin-top: 235px;
+    margin-left: 315px;
+}
+
+#txt_super2{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 260px;
+    margin-left: 55px;
+}
+
+#hora_super2{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 260px;
+    margin-left: 330px;
+}
+
+#linha_5{
+    width: 320px;
+    height: 2px;
+    background-color: #F6F7F9;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 40px;
+}
+
+#img_transf{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 295px;
+}
+
+#ganho_transf{
+    position: absolute;
+    color: #374047;
+    font-size: 16px;
+    margin-top: 290px;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+#data_transf{
+    position: absolute;
+    color: #6A7680;
+    font-size: 16px;
+    margin-top: 290px;
+    margin-left: 315px;
+}
+
+#txt_transf{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 315px;
+    margin-left: 55px;
+}
+
+#hora_transf{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 315px;
+    margin-left: 330px;
+}
+
+#linha_6{
+    width: 320px;
+    height: 2px;
+    background-color: #F6F7F9;
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 40px;
+}
+
+#img_super3{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 350px;
+}
+
+#gasto_super3{
+    position: absolute;
+    color: #374047;
+    font-size: 16px;
+    margin-top: 345px;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+#data_super3{
+    position: absolute;
+    color: #6A7680;
+    font-size: 16px;
+    margin-top: 345px;
+    margin-left: 315px;
+}
+
+#txt_super3{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 370px;
+    margin-left: 55px;
+}
+
+#hora_super3{
+    position: absolute;
+    color: #6A7680;
+    font-size: 12px;
+    margin-top: 370px;
+    margin-left: 330px;
+}
